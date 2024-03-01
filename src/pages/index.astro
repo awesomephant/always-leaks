@@ -1,0 +1,23 @@
+---
+import World from "../components/World.jsx"
+---
+
+<main>
+  <h1>It always leaks somewhere</h1>
+  <World client:only="react" />
+</main>
+
+<style>
+  h1 {
+    position: absolute;
+    top: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: -0.01em;
+    word-spacing: -0.05em;
+  }
+</style>
